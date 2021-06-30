@@ -1033,6 +1033,9 @@ L.control.layers({
     L.control.locate({
         position: "bottomright",
 	     layer: gpslayer,
+	     locateOptions: {
+               enableHighAccuracy: true
+}
     }).addTo(map);
 
 
